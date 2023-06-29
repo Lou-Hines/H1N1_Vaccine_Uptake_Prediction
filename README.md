@@ -12,7 +12,7 @@ This data comes from a NHFS National Flu Survey from 2009, which inquires about 
 
 ## Methods
 
-We used four machine learning models to make our predictions, settling on GridSearchCV-tuned GradientBoostingClassifer with from Sci-Kit Learn.. We paid special attention to test scores, since overfitting on imbalanced data is a major concern. F1 and ROC-AUC scores were also important, again given the data imbalances and types.
+We used four machine learning models to make our predictions, settling on GridSearchCV-tuned HistGradientBoostingClassifer with SMOTE re-sampling from Sci-Kit Learn.. We paid special attention to test scores, since overfitting on imbalanced data is a major concern. F1, confusion matrices, and ROC-AUC scores were also important, again given the data imbalances and types.
 
 ## Project Results
 
